@@ -17,7 +17,7 @@ function App() {
     <div className="app">
       {/* Todo List */}
       <div className="app__container">
-        <h2 >React-Redux-ToDo App</h2>
+        <h2 className="app__title" >React-Redux-ToDo App</h2>
         <div className="app__todoContainer">
           {sortedTodoList.map((item) => (
             <TodoItem

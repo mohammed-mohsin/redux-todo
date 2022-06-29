@@ -5,6 +5,12 @@
   display: grid;
   place-items: center;
 }
+
+.app__title{
+  font-size:32px;
+  color:#4e4d44;
+  padding: 8px;
+}
 .app__container {
     height: 100vh;
   width: 500px;
